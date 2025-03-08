@@ -23,12 +23,12 @@ body {
 .gallery {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Adds spacing between images */
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .preview {
-    width: 150px; /* Sets a fixed width for better consistency */
+    width: 150px;
     height: auto;
     border: 5px solid black;
     cursor: pointer;
